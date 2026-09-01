@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <pattern id="ht" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
+      <circle cx="4" cy="4" r="2.2" fill="#151820" opacity="0.10"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="#F4EAD2"/>
+  <rect width="512" height="512" fill="url(#ht)"/>
+  <circle cx="256" cy="256" r="222" fill="#FDF6E2" stroke="#151820" stroke-width="14"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#D9A13F" stroke-width="8"/>
+  <g font-family="'Archivo Black','Arial Black',Impact,sans-serif" font-weight="900" text-anchor="middle">
+    <text x="266" y="342" font-size="240" fill="#B77E1E" opacity="0.9">M</text>
+    <text x="252" y="330" font-size="240" fill="#C6301A" stroke="#151820" stroke-width="12" paint-order="stroke">M</text>
+  </g>
+</svg>

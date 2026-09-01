@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="MABEL — a mobile bimanual platform for everyday work">
+  <defs>
+    <pattern id="halftone" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
+      <circle cx="3" cy="3" r="1.7" fill="#151820" opacity="0.10"/>
+    </pattern>
+    <pattern id="halftoneRed" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <circle cx="3" cy="3" r="1.9" fill="#C6301A" opacity="0.35"/>
+    </pattern>
+    <clipPath id="panelClip"><rect x="13" y="13" width="1174" height="314" rx="6"/></clipPath>
+  </defs>
+  <!-- newsprint ground + comic panel frame -->
+  <rect width="1200" height="340" fill="#F4EAD2"/>
+  <rect width="1200" height="340" fill="url(#halftone)"/>
+  <rect x="10" y="10" width="1180" height="320" fill="none" stroke="#151820" stroke-width="6" rx="6"/>
+  <rect x="22" y="22" width="1156" height="296" fill="none" stroke="#151820" stroke-width="2" rx="3" opacity="0.55"/>
+  <!-- deco sunburst -->
+  <g clip-path="url(#panelClip)">
+    <line x1="530" y1="170" x2="40" y2="170" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="530" y1="164" x2="44" y2="135" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="532" y1="157" x2="55" y2="101" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="534" y1="151" x2="74" y2="67" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="537" y1="145" x2="100" y2="35" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="542" y1="140" x2="132" y2="5" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="546" y1="135" x2="171" y2="-23" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="552" y1="130" x2="216" y2="-48" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="558" y1="126" x2="266" y2="-71" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="565" y1="122" x2="320" y2="-90" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="572" y1="119" x2="378" y2="-105" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="580" y1="117" x2="439" y2="-117" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="588" y1="116" x2="503" y2="-125" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="596" y1="115" x2="567" y2="-129" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="604" y1="115" x2="633" y2="-129" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="612" y1="116" x2="697" y2="-125" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="620" y1="117" x2="761" y2="-117" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="628" y1="119" x2="822" y2="-105" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="635" y1="122" x2="880" y2="-90" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="642" y1="126" x2="934" y2="-71" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="648" y1="130" x2="984" y2="-48" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="654" y1="135" x2="1029" y2="-23" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="658" y1="140" x2="1068" y2="5" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="663" y1="145" x2="1100" y2="35" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="666" y1="151" x2="1126" y2="67" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="668" y1="157" x2="1145" y2="101" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+    <line x1="670" y1="164" x2="1156" y2="135" stroke="#D9A13F" stroke-width="7" opacity="0.5"/>
+    <line x1="670" y1="170" x2="1160" y2="170" stroke="#B77E1E" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- halftone glow patch behind title -->
+  <ellipse clip-path="url(#panelClip)" cx="600.0" cy="150" rx="330" ry="110" fill="url(#halftoneRed)" opacity="0.35"/>
+  <!-- MABEL comic lettering: gold slab shadow, ink outline, vermillion face -->
+  <g font-family="'Archivo Black','Arial Black',Impact,sans-serif" font-weight="900" text-anchor="middle" letter-spacing="6">
+    <text x="610.0" y="196" font-size="132" fill="#B77E1E" opacity="0.9">MABEL</text>
+    <text x="600.0" y="186" font-size="132" fill="#C6301A" stroke="#151820" stroke-width="7" paint-order="stroke">MABEL</text>
+  </g>
+  <!-- caption box tagline -->
+  <g>
+    <rect x="228.0" y="222" width="744" height="46" fill="#FDF6E2" stroke="#151820" stroke-width="4"/>
+    <text x="600.0" y="253" font-family="'Space Mono',Menlo,monospace" font-size="23" fill="#151820" text-anchor="middle" letter-spacing="2">A MOBILE BIMANUAL PLATFORM FOR EVERYDAY WORK</text>
+  </g>
+  <!-- open source starburst -->
+  <g transform="rotate(12 1042 92)">
+    <polygon points="1104,92 1086,104 1096,123 1075,125 1073,146 1054,136 1042,154 1030,136 1011,146 1009,125 988,123 998,104 980,92 998,80 988,61 1009,59 1011,38 1030,48 1042,30 1054,48 1073,38 1075,59 1096,61 1086,80" fill="#C6301A" stroke="#151820" stroke-width="4"/>
+    <text x="1042" y="86" font-family="'Archivo Black','Arial Black',Impact,sans-serif" font-size="19" fill="#FDF6E2" text-anchor="middle">OPEN</text>
+    <text x="1042" y="108" font-family="'Archivo Black','Arial Black',Impact,sans-serif" font-size="19" fill="#FDF6E2" text-anchor="middle">SOURCE!</text>
+  </g>
+  <!-- bottom ticker of features -->
+  <g font-family="'Space Mono',Menlo,monospace" font-size="17" text-anchor="middle">
+    <rect x="60" y="286" width="252" height="32" fill="#23577E" stroke="#151820" stroke-width="3"/>
+    <text x="186" y="308" fill="#FDF6E2">HOLONOMIC SWERVE</text>
+    <rect x="332" y="286" width="252" height="32" fill="#2E7D4F" stroke="#151820" stroke-width="3"/>
+    <text x="458" y="308" fill="#FDF6E2">TWO 7-DOF ARMS</text>
+    <rect x="604" y="286" width="252" height="32" fill="#D9A13F" stroke="#151820" stroke-width="3"/>
+    <text x="730" y="308" fill="#151820">17-DOF HANDS ×2</text>
+    <rect x="876" y="286" width="264" height="32" fill="#C6301A" stroke="#151820" stroke-width="3"/>
+    <text x="1008" y="308" fill="#FDF6E2">SUB-$8K &#183; SIM-FIRST</text>
+  </g>
+</svg>
