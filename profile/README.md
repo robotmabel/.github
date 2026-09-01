@@ -9,6 +9,8 @@
 
 **One robot. Two arms. Thirty-four finger joints. Zero excuses not to build one.**
 
+🌐 **[Visit the project website →](https://robotmabel.github.io/website/)**
+
 </div>
 
 ---
@@ -34,6 +36,7 @@ demonstration-to-deployed-policy learning pipeline.
 | Repo | What it is |
 |---|---|
 | **[MABEL](https://github.com/robotmabel/MABEL)** | The whole robot — hardware, firmware, control, simulation, teleop, learning, docs |
+| **[website](https://github.com/robotmabel/website)** | The project site — [robotmabel.github.io/website](https://robotmabel.github.io/website/) |
 
 *Everything ships in one monorepo on purpose: the simulator, the real robot, and every
 teleop client speak the same wire contract, so nothing can drift apart.*
